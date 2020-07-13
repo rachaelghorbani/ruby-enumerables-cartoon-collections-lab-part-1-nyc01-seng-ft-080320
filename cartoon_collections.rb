@@ -10,7 +10,7 @@ end
  
 def list_dwarves(array)
   array.each_with_index do |dwarves, index|
-    print "#{index}.*#{dwarves}"
+    puts "#{index + 1}.*#{dwarves}"
   end
   # Use `each_with_index` to enumerate over the provided array
   #
